@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #a259ff;
+  --gray-1: #2b2b2b;
+  --gray-2: #3b3b3b;
+  --gray-3: #858584;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.btt {
+  padding: 18px 20px;
+  border-radius: 20px;
+  border: 2px solid var(--primary-color);
+  color: #fff;
+  transition: all ease-in-out 0.5s;
+}
+
+.btt-primary {
+  background-color: var(--primary-color);
+}
+
+.btt-primary:hover {
+  background-color: transparent;
+}
+
+.btt-secondary {
+  background-color: transparent;
+}
+
+.btt-secondary:hover {
+  background-color: var(--primary-color);
+}
